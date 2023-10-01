@@ -1,4 +1,4 @@
-export const Avatar = ({avatar,username,tag,location}) => {
+export const Avatar = ({ avatar, username, tag, location }) => {
    return (
       <div className="description">
     <img
@@ -6,7 +6,7 @@ export const Avatar = ({avatar,username,tag,location}) => {
       alt={username}
       className="avatar"
     />
-    <p className="name">P{username}</p>
+    <p className="name">{username}</p>
     <p className="tag">@{tag}</p>
     <p className="location">{location}</p>
   </div>

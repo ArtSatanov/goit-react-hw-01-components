@@ -1,7 +1,7 @@
 import { Profile } from "./profile/Profile";
 
 
-export const App = (data) => {
+export const App = ({data}) => {
   return (
     <div
       style={{
