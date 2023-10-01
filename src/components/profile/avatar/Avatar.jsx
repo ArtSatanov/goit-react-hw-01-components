@@ -13,4 +13,3 @@ export const Avatar = ({avatar,username,tag,location}) => {
    );
 }
 
-
