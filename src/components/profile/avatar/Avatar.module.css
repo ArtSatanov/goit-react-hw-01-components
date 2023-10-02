@@ -28,7 +28,9 @@
 }
 
 .location {
+  margin-bottom: 30px;
   font-weight: 600;
   font-size: 20px;
   color: rgba(46, 47, 66, 0.6);
+  
 }

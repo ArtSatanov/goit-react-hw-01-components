@@ -1,18 +1,19 @@
+import styles from "./Stat.module.css"
 
 export const Stat = ({followers,views,likes }) => {
    return (
-        <ul className="stats">
+        <ul className={styles.stats}>
     <li>
-      <span className="label">Followers</span>
-      <span className="quantity">1000</span>
+      <span className={styles.label}>Followers</span>
+      <span className={styles.quantity}>1000</span>
     </li>
     <li>
-      <span className="label">Views</span>
-      <span className="quantity">2000</span>
+      <span className={styles.label}>Views</span>
+      <span className={styles.quantity}>2000</span>
     </li>
     <li>
-      <span className="label">Likes</span>
-      <span className="quantity">3000</span>
+      <span className={styles.label}>Likes</span>
+      <span className={styles.quantity}>3000</span>
     </li>
   </ul>
 
