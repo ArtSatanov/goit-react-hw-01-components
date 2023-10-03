@@ -1,5 +1,6 @@
 import { Profile } from "./profile/Profile";
 import { Statistics } from "./statistics/Statistics";
+import { FriendList } from "./friend-list/FriendList";
 
 
 import profile from "./profile/assets/user.json";
