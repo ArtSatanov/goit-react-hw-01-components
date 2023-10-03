@@ -4,6 +4,7 @@ import { Statistics } from "./statistics/Statistics";
 
 import profile from "./profile/assets/user.json";
 import statistics from "./statistics/assets/data.json"
+import friends from "./friend-list/assets/friends.json"
 
 
 
@@ -13,7 +14,7 @@ export const App = () => {
 
       <Profile user={profile} />
       <Statistics data={statistics} />
-      
+      <FriendList friends={friends} />
       
     </div>
   );
