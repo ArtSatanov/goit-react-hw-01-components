@@ -7,7 +7,7 @@ export const Statistics = ({ data }) => {
       {data.title || <h2 className={styles.title}>Upload stats</h2>}
 
       <ul className={styles.statlist}>
-        {data.map((stat) => (
+        {data.map(stat => (
           <StatItem
             key={stat.id}
             label={stat.label}
@@ -18,4 +18,3 @@ export const Statistics = ({ data }) => {
     </section>
   );
 };
-
