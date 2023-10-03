@@ -3,7 +3,7 @@
   justify-content: left;
   align-items: center;
   gap: 15px;
-  max-width: 250px;
+  min-width: 250px;
   padding: 5px 0 5px;
   box-shadow: 0 0 10px #c6cccced;
 }
