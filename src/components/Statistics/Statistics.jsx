@@ -1,11 +1,12 @@
 import { StatItem } from './statItem/StatItem';
+import styles from './Statistics.module.css';
 
 export const Statistics = ({ data }) => {
   return (
-    <section class="statistics">
-      <h2 class="title">Upload stats</h2>
+    <section className={styles.statistics}>
+      {data.title || <h2 className={styles.title}>Upload stats</h2>}
 
-      <ul class="stat-list">
+      <ul className={styles.statlist}>
         {data.map((stat) => (
           <StatItem
             key={stat.id}
