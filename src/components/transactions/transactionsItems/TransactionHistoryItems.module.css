@@ -1,0 +1,13 @@
+.item {
+  width: calc(100% / 3);
+  padding: 10px 0 10px;
+  text-align: center;
+}
+
+.odd {
+   background-color: #B0C4DE;
+}
+
+.even {
+   background-color: #E6E6FA;
+}
