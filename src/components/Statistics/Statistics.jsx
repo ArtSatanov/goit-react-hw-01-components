@@ -1,3 +1,5 @@
+import { StatItem } from "./statItem/StatItem"
+
 export const Statistics = (statistics) => {
    return (
       <section class="statistics">

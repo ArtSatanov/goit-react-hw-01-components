@@ -1,8 +1,13 @@
 import { Profile } from "./profile/Profile";
+import { Statistics } from "./statistics/Statistics";
+
+
+import profile from "./profile/assets/user.json";
+// import statistics from "./components/statistics/assets/data.json"
 
 
 
-export const App = ({users, statistics}) => {
+export const App = () => {
   return (
     <div
       style={{
@@ -15,8 +20,8 @@ export const App = ({users, statistics}) => {
       }}
     >
 
-      <Profile user={users} />
-      <Statistics data={statistics} />
+      <Profile user={profile} />
+      {/* <Statistics data={statistics} /> */}
       
       
     </div>

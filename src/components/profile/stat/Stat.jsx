@@ -5,15 +5,15 @@ export const Stat = ({followers,views,likes }) => {
         <ul className={styles.stats}>
     <li>
       <span className={styles.label}>Followers</span>
-      <span className={styles.quantity}>1000</span>
+      <span className={styles.quantity}>{followers}</span>
     </li>
     <li>
       <span className={styles.label}>Views</span>
-      <span className={styles.quantity}>2000</span>
+      <span className={styles.quantity}>{views}</span>
     </li>
     <li>
       <span className={styles.label}>Likes</span>
-      <span className={styles.quantity}>3000</span>
+      <span className={styles.quantity}>{likes}</span>
     </li>
   </ul>
 
