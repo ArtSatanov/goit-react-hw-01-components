@@ -1,7 +1,8 @@
 import { Profile } from "./profile/Profile";
 
 
-export const App = ({data}) => {
+
+export const App = ({users, statistics}) => {
   return (
     <div
       style={{
@@ -14,7 +15,9 @@ export const App = ({data}) => {
       }}
     >
 
-      <Profile user={data} />
+      <Profile user={users} />
+      <Statistics data={statistics} />
+      
       
     </div>
   );
