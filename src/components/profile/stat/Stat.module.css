@@ -1,5 +1,5 @@
 ul.stats > li {
-  width: inherit;
+  width: 100%;
   padding-top: 25px;
   padding-bottom: 25px;
   list-style: none;
@@ -16,8 +16,6 @@ ul.stats > li {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-sizing: content-box;
-  width: 100%;
 }
 
 .label {
